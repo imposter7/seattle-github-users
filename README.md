@@ -1,6 +1,16 @@
-- The data was collected from the GitHub API by querying Seattle-based users with over 200 followers.
-- Interesting insight: A surprising number of repositories lack a specified license, possibly affecting their usage in public projects.
-- Recommendation: Developers should enable projects and wikis to improve collaboration and documentation.
+# GitHub Users in Seattle
 
-# Additional Information
-This project includes `users.csv` and `repositories.csv` files with details on Seattle-based GitHub users and their repositories.
+This repository contains data about GitHub users in Toronto with over 100 followers and their repositories.
+
+## Files
+
+1. users.csv: Contains information about 521 GitHub users in Delhi with over 100 followers
+2. repositories.csv: Contains information about 51114 public repositories from these users
+3. gitscrap.py: Python script used to collect this data
+
+## Data Collection
+
+- Data collected using GitHub API
+- Date of collection: 2024-10-30
+- Only included users with 100+ followers
+- Up to 500 most recently pushed repositories per user
